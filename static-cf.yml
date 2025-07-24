@@ -2,9 +2,10 @@ Resources:
   Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: your-stack-bucketname-abc987
+      BucketName: cfbucket-aqsb-20250724
   Instance:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
       ImageId: ami-0d06583a13678c938
+      SubnetId: subnet-0dbcc9e65afa48baf

@@ -11,3 +11,4 @@ Resources:
     Properties:
       InstanceType: "t2.micro"
       ImageId: !Ref "LatestAmiId"
+      SubnetId: subnet-07fceddf94a208a0a
